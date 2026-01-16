@@ -1,94 +1,86 @@
-# Single Page CV – HTML Project
+# Single Page CV (Pure HTML)
 
-This project is a **single-page curriculum vitae (CV)** created using **pure HTML only**, without any CSS or JavaScript.  
-It is part of the **roadmap.sh HTML projects** and focuses on semantic structure, accessibility, and proper document metadata.
+This project is a **single-page CV built using only pure HTML**, created as part of the roadmap.sh HTML learning path.
 
-🔗 **Project reference:**  
-https://roadmap.sh/projects/single-page-cv
+🔗 **Project reference:** [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
 
 ---
 
 ## 📄 Project Overview
 
-The goal of this project is to practice writing **clean, semantic HTML** while structuring a professional CV on a single page.  
-The CV contains clearly defined sections such as personal information, skills, education, and career history.
+The goal of this project is to demonstrate a solid understanding of **semantic HTML** and document structure without relying on CSS or JavaScript for layout or styling (at this stage).
 
-This project intentionally avoids styling and scripting to focus purely on HTML fundamentals.
-
----
-
-## 🧱 Structure
-
-The HTML document is structured using semantic elements to improve readability, accessibility, and SEO.
-
-Typical sections include:
-
-- Header (name, title, contact information)
-- About / Summary
-- Skills
-- Education
-- Career History / Experience
-- Footer (optional)
-
-All content is contained within a **single HTML file**.
+The CV is contained in **one HTML file** and includes personal information, skills, education, experience, and external links.
 
 ---
 
-## 🔍 SEO & Metadata
+## 🛠️ Technologies Used
 
-The document includes essential metadata in the `<head>` section, such as:
-
-- Character encoding
-- Viewport configuration
-- Page title
-- Meta description
-
-Additionally, **Open Graph (OG) meta tags** are included to improve how the page appears when shared on social media platforms.
+* HTML5 (pure HTML, no CSS or JavaScript)
+* SVG (for vector-based icons)
 
 ---
 
-## 🌐 Favicon
+## 📐 Structure & Semantics
 
-A favicon is linked in the `<head>` section to provide a recognizable browser tab icon and improve overall presentation.
+The HTML document is structured using semantic elements such as:
+
+* `<header>` for personal information
+* `<section>` for logical content grouping
+* `<article>` for experience entries
+* `<address>` for contact details
+* `<ul>` and `<li>` for lists
+
+This ensures:
+
+* Accessibility
+* Clean document outline
+* Future compatibility with CSS styling
 
 ---
 
-## 🚀 How to View the Project
+## 🔍 SEO & Open Graph
 
-1. Clone or download the repository
-2. Open the HTML file in any modern web browser  
-   *(No build steps or dependencies required)*
+The `<head>` section includes:
+
+* Meta description
+* Author meta tag
+* Responsive viewport meta tag
+* Open Graph (OG) tags for better social media sharing
+
+These elements improve discoverability and preview behavior when sharing the page.
 
 ---
 
-## 🎯 Learning Objectives
+## 🖼️ Media & Links
 
-- Practice semantic HTML structure
-- Understand proper document layout
-- Learn basic SEO-related meta tags
-- Implement Open Graph tags
-- Create a clean, readable single-page document
+* SVG icons are embedded directly in the HTML
+* External links (GitHub, Spotify, YouTube) are included and open in a new tab
+
+---
+
+## 🚀 Future Improvements
+
+* Add CSS for layout and visual styling
+* Improve typography and spacing
+* Optional accessibility enhancements
+
+---
+
+## ✅ Project Status
+
+**Status: FINAL (HTML structure complete)**
+
+The HTML structure is finished and considered final.
+Future changes will focus only on:
+
+* CSS styling
+* Content updates (text/media)
+
+No further structural HTML changes are required.
 
 ---
 
 ## 📌 Notes
 
-- This project uses **HTML only**
-- No CSS or JavaScript is included
-- The focus is on structure, not visual design
-
----
-
-## 📚 Resources
-
-- roadmap.sh HTML Project  
-  https://roadmap.sh/projects/single-page-cv
-- FreeCodeCamp – HTML Fundamentals  
-  https://www.freecodecamp.org/
-
----
-
-## 🧑‍💻 Author
-
-Created as part of a personal learning journey to strengthen HTML fundamentals.
-
+This project intentionally avoids CSS and JavaScript to focus purely on HTML fundamentals, as required by the roadmap.sh project.
